@@ -1,23 +1,4 @@
-﻿<!-- nav -->
-<!-- <nav class="navbar navbar-expand navbar-dark bg-dark" style="clear: both;">
-    <div class="navbar-nav">
-        <ul class="nav navbar-nav">
-            <li>
-                <a class="nav-item nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><img src="assets\imgs\logo.png" width="32" height="32" class="img-circle"></a>
-            </li>
-            <li><a class="nav-item nav-link" routerLink="/about" routerLinkActive="active">About us</a></li>>
-            <li><a class="nav-item nav-link" routerLink="/product" routerLinkActive="active">Product</a></li>>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-            <li><a *ngIf="user" class="nav-item nav-link" routerLink="/users" routerLinkActive="active">Users</a></li>
-            <li><a *ngIf="user" class="nav-item nav-link" href="/">Hi {{user.firstName}}!</a></li>
-            <li><a *ngIf="user" class="nav-item nav-link" href="/" (click)="logout()">Logout</a></li>
-        </ul>
-    </div>
-</nav> -->
-
-
-<nav class="navbar navbar-inverse navbar-expand navbar-nav navbar-fixed-top" role="navigation" id="topheader" style="clear: both; width: 100%; margin: 0;">
+﻿<nav class="navbar navbar-inverse navbar-expand navbar-nav navbar-fixed-top" role="navigation" id="topheader" style="clear: both; width: 100%; margin: 0;">
     <div class="container" style="display: block;">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle">
@@ -30,17 +11,17 @@
         </div>
         <div class="my-navbar rightIn">
             <ul class="nav navbar-nav">
-                <li><a class="nav-item nav-link" routerLink="/about" routerLinkActive="active">About us</a></li>
-                <li><a class="nav-item nav-link" routerLink="/product" routerLinkActive="active">Product</a></li>
+                <li><a class="nav-item nav-link" routerLink="/about" routerLinkActive="active">關於我們</a></li>
+                <li><a class="nav-item nav-link" routerLink="/product" routerLinkActive="active">產品列表</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li *ngIf="!user"><a class="nav-item nav-link" routerLink="/account/login" routerLinkActive="active">Login</a></li>
-                <li *ngIf="!user"><a class="nav-item nav-link" routerLink="/account/register" routerLinkActive="active">Register</a></li>
+                <li *ngIf="!user"><a class="nav-item nav-link" routerLink="/account/login" routerLinkActive="active">登入</a></li>
+                <li *ngIf="!user"><a class="nav-item nav-link" routerLink="/account/register" routerLinkActive="active">註冊</a></li>
 
-                <li *ngIf="user"><a *ngIf="user.username === admin" class="nav-item nav-link" routerLink="/usersCRUDsystem" routerLinkActive="active">Users</a></li>
-                <li *ngIf="user"><a *ngIf="user.username === admin" class="nav-item nav-link" routerLink="/productsCRUDsystem" routerLinkActive="active">Products</a></li>
-                <li *ngIf="user"><a class="nav-item nav-link">Hi {{user.username}}!</a></li>
-                <li *ngIf="user"><a class="nav-item nav-link" href="/" (click)="logout()">Logout</a></li>
+                <li *ngIf="user"><a *ngIf="user.username === admin" class="nav-item nav-link" routerLink="/usersCRUDsystem" routerLinkActive="active">用戶管理</a></li>
+                <!-- <li *ngIf="user"><a *ngIf="user.username === admin" class="nav-item nav-link" routerLink="/productsCRUDsystem" routerLinkActive="active">Products</a></li> -->
+                <li *ngIf="user"><a class="nav-item nav-link">您好 {{user.username}}！</a></li>
+                <li *ngIf="user"><a class="nav-item nav-link" href="/" (click)="logout()">登出</a></li>
             </ul>
         </div>
     </div>
@@ -64,9 +45,9 @@
             <!-- <img src="https://picsum.photos/2800/700/?random=1"> -->
             <div class="container">
                 <div class="carousel-caption animate">
-                    <h1>First page</h1>
-                    <p>This is first page~</p>
-                    <p><a routerLink="/product" class="btn btn-lg btn-transparent" href="#" role="button">See More</a></p>
+                    <h1 style="font-weight: bold;">「畸」不可失</h1>
+                    <p style="font-weight: bold;">雖然外型不同，但營養價值卻相同喔！</p>
+                    <p><a routerLink="/product" class="btn btn-lg btn-transparent" href="#" role="button">了解更多</a></p>
                 </div>
             </div>
         </div>
@@ -75,9 +56,9 @@
             <!-- <img src="https://picsum.photos/2800/700/?random=2"> -->
             <div class="container">
                 <div class="carousel-caption animate">
-                    <h1>Second page</h1>
-                    <p>This is second page~</p>
-                    <p><a routerLink="/product" class="btn btn-lg btn-transparent" href="#" role="button">See More</a></p>
+                    <h1 style="font-weight: bold;">「畸」不可失</h1>
+                    <p style="font-weight: bold;">雖然外型不同，但營養價值卻相同喔！</p>
+                    <p><a routerLink="/product" class="btn btn-lg btn-transparent" href="#" role="button">了解更多</a></p>
                 </div>
             </div>
         </div>
@@ -85,9 +66,9 @@
             <!-- <img src="https://picsum.photos/2800/700/?random=3"> -->
             <div class="container">
                 <div class="carousel-caption animate">
-                    <h1>Third page</h1>
-                    <p>This is third page~</p>
-                    <p><a routerLink="/product" class="btn btn-lg btn-transparent" href="#" role="button">See More</a></p>
+                    <h1 style="font-weight: bold;">「畸」不可失</h1>
+                    <p style="font-weight: bold;">雖然外型不同，但營養價值卻相同喔！</p>
+                    <p><a routerLink="/product" class="btn btn-lg btn-transparent" href="#" role="button">了解更多</a></p>
                 </div>
             </div>
         </div>
@@ -101,15 +82,12 @@
 
 
 <!-- main app container -->
-<!-- <div class="app-container" [ngClass]="{ 'bg-light': user }"> -->
-
 <div class="app-container" style="clear: both;">
 
     <alert></alert>
     <router-outlet></router-outlet>
 
 </div>
-<!-- </div> -->
 
 <!-- Footer -->
 
