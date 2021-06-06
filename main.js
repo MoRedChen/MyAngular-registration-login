@@ -951,6 +951,8 @@ const routes = [
     { path: 'about', component: _about_about_component__WEBPACK_IMPORTED_MODULE_4__["AboutComponent"] },
     { path: 'product', component: _product_product_component__WEBPACK_IMPORTED_MODULE_5__["ProductComponent"] },
     { path: 'show', component: _show_show_component__WEBPACK_IMPORTED_MODULE_6__["ShowComponent"] },
+    { path: 'show?id=p01', component: _show_show_component__WEBPACK_IMPORTED_MODULE_6__["ShowComponent"] },
+    { path: 'show?id=p02', component: _show_show_component__WEBPACK_IMPORTED_MODULE_6__["ShowComponent"] },
     // otherwise redirect to home
     { path: '**', redirectTo: '' }
 ];
@@ -1921,7 +1923,7 @@ _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__["platformBrowser"]().boot
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\user\Documents\MyAngular-registration-login\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\user\MyAngular-registration-login\src\main.ts */"./src/main.ts");
 
 
 /***/ })
