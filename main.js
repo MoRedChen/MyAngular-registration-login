@@ -1446,7 +1446,7 @@ class ProductComponent {
     }
 }
 ProductComponent.ɵfac = function ProductComponent_Factory(t) { return new (t || ProductComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"])); };
-ProductComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProductComponent, selectors: [["app-product"]], decls: 28, vars: 0, consts: [[1, "container"], [1, "row"], [1, "col-xs-12", "col-sm-12"], [1, "breadcrumb"], ["href", "/"], [1, "fa", "fa-home"], [1, "active"], [1, "col-xs-12", "col-sm-4"], [1, "thumbnail", 2, "cursor", "pointer", 3, "click"], ["src", "assets/imgs/carrot.jpg", "alt", ""], [1, "caption"], [1, "ellipsis"], ["src", "assets/imgs/watermelon.jpg", "alt", ""]], template: function ProductComponent_Template(rf, ctx) { if (rf & 1) {
+ProductComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProductComponent, selectors: [["app-product"]], decls: 28, vars: 0, consts: [[1, "container"], [1, "row"], [1, "col-xs-12", "col-sm-12"], [1, "breadcrumb"], ["href", "/"], [1, "fa", "fa-home"], [1, "active"], [1, "col-xs-12", "col-sm-4"], [1, "thumbnail", 2, "cursor", "pointer", 3, "click"], ["src", "assets/imgs/banana.jpg", "alt", ""], [1, "caption"], [1, "ellipsis"], ["src", "assets/imgs/watermelon.jpg", "alt", ""]], template: function ProductComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -1472,10 +1472,10 @@ ProductComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "img", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "div", 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "h2", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "\u9999\u751C\u863F\u8514");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "\u9999\u751C\u9999\u8549");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "p", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "\u75312000\u5168\u570B\u863F\u8514\u5927\u8CFD\u51A0\u8ECD\uFF38\uFF38\uFF38\u6240\u8015\u7A2E\u7684\u863F\u8514\uFF0C\u904B\u7528\u5176\u8D85\u904E20\u5E74\u7684\u8015\u7A2E\u8CC7\u6B77\uFF0C\u6240\u7A2E\u51FA\u7684\u863F\u8514\u53E3\u611F\u723D\u8106\u3001\u5473\u9053\u9999\u751C\uFF0C\u4E0D\u8AD6\u5165\u83DC\u6216\u662F\u6DBC\u62CC\u90FD\u662F\u4E0D\u932F\u7684\u9078\u64C7");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "\u75312000\u5168\u570B\u9999\u8549\u5927\u8CFD\u51A0\u8ECD\uFF38\uFF38\uFF38\u6240\u8015\u7A2E\u7684\u9999\u8549\uFF0C\u904B\u7528\u5176\u8D85\u904E20\u5E74\u7684\u8015\u7A2E\u8CC7\u6B77\uFF0C\u6240\u7A2E\u51FA\u7684\u9999\u8549\u53E3\u611F\u7DBF\u5BC6\u3001\u5473\u9053\u9999\u751C\uFF0C\u4E0D\u8AD6\u505A\u6210\u751C\u9EDE\u6216\u662F\u76F4\u63A5\u5403\u90FD\u662F\u4E0D\u932F\u7684\u9078\u64C7");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -1522,15 +1522,14 @@ __webpack_require__.r(__webpack_exports__);
 const productlist = [
     {
         product_id: 'p01',
-        name: '香甜蘿蔔',
-        discription: '由2000全國蘿蔔大賽冠軍ＸＸＸ所耕種的蘿蔔，運用其超過20年的耕種資歷，所種出的蘿蔔口感爽脆、味道香甜，不論入菜或是涼拌都是不錯的選擇',
-        image: 'assets/imgs/carrot.jpg'
+        name: '香甜香蕉',
+        discription: '由2000全國香蕉大賽冠軍ＸＸＸ所耕種的香蕉，運用其超過20年的耕種資歷，所種出的香蕉口感綿密、味道香甜，不論做成甜點或是直接吃都是不錯的選擇',
+        image: 'assets/imgs/banana.jpg'
     },
     {
         product_id: 'p02',
         name: '香甜西瓜',
         discription: '由2000全國西瓜大賽冠軍ＸＸＸ所耕種的西瓜，運用其超過20年的耕種資歷，所種出的西瓜口感爽脆、味道香甜，不論入菜或是涼拌都是不錯的選擇',
-        // image: 'https://api.fnkr.net/testimg/350x200/aaaaaa'
         image: 'assets/imgs/watermelon.jpg'
     }
 ];
@@ -1571,9 +1570,9 @@ class ShowComponent {
         if (this.activatedRoute.snapshot.queryParamMap.get('id').toString() == 'p01') {
             this.p_id = 'p01';
             this.p_product_id = 'p01';
-            this.p_name = '香甜蘿蔔';
-            this.p_discription = '由2000全國蘿蔔大賽冠軍ＸＸＸ所耕種的蘿蔔，運用其超過20年的耕種資歷，所種出的蘿蔔口感爽脆、味道香甜，不論入菜或是涼拌都是不錯的選擇';
-            this.p_image = 'assets/imgs/carrot.jpg';
+            this.p_name = '香甜香蕉';
+            this.p_discription = '由2000全國香蕉大賽冠軍ＸＸＸ所耕種的香蕉，運用其超過20年的耕種資歷，所種出的香蕉口感綿密、味道香甜，不論做成甜點或是直接吃都是不錯的選擇';
+            this.p_image = 'assets/imgs/banana.jpg';
         }
         else if (this.activatedRoute.snapshot.queryParamMap.get('id').toString() == 'p02') {
             this.p_id = 'p02';
