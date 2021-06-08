@@ -30,7 +30,7 @@
             animation: spin 2s linear infinite;
             -webkit-animation: spin 1s linear infinite;
         }
-
+        
         @keyframes spin {
             0% {
                 transform: rotate(0deg);
@@ -43,6 +43,7 @@
 </head>
 
 <body>
+
 
 
 
@@ -84,6 +85,26 @@
 
             });
         });
+    </script>
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId: '340037414196245',
+                autoLogAppEvents: true,
+                xfbml: true,
+                version: 'v2.11'
+            });
+        };
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {
+                return;
+            }
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
     </script>
 <script src="runtime.js" defer></script><script src="polyfills.js" defer></script><script src="styles.js" defer></script><script src="vendor.js" defer></script><script src="main.js" defer></script></body>
 
